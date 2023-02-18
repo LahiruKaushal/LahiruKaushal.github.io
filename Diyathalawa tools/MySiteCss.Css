@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+}
+
+.navbar{
+  background-color: rgba(237, 233, 233, 0.721);
+  /* padding: 0 10%; */
+  position: fixed;
+  top : 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav{
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.manu{
+  display: inline-block;
+  float: right;
+}
+
+.manu li{
+  float: right;
+  padding: 18px;
+  margin-right: 10px;
+  list-style-type: none;
+  font-size: 14px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner-section{
+  background-image: url(Assets/img/Home\ page.jpg);
+  height: 1400px;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.search-bar{
+  margin-bottom: 0px;
+  margin-top: 400px;
+  margin-left: 35%;
+  margin-right:35%;
+  width:  30%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.search-button{
+  margin-top: 10px;
+  margin-right: 45%;
+  margin-left: 45%;
+  margin-bottom: 170px;
+  padding: 17px 15px 15px 15px;
+  border-radius: 15%;
+}
+
+.logo-white{
+  width: 200px;
+  border-radius: 15%;
+  /* margin-top: 660px; */
+  opacity: 0.88;
+  z-index: -99;
+
+}
+
+.helo-text{  
+  text-transform: uppercase;
+  margin-top: 100px;
+  list-style-type: none;
+  font-size: 60px;
+  color: rgba(255, 255, 250, 0.95);
+  font-family: 'Arial wide', Arial, sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+/* .contact-form{
+  width: 600px;
+  height: 300px;
+  float: right;
+  
+} */
